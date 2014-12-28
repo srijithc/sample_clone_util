@@ -7,6 +7,7 @@ Run the below commands to setup application and database:
     unzip sample_clone_util.zip
     cd sample_clone_util
     bundle
+    bundle exec rake db:create RAILS_ENV=development
     bundle exec rake db:migrate
     bundle exec rake db:seed
     
